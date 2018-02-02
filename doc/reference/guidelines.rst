@@ -56,7 +56,7 @@ each set named <main_model> the following files may be created:
 For instance, *sale* module introduces ``sale_order`` and
 ``sale_order_line`` where ``sale_order`` is dominant. So the
 ``<main_model>`` files will be named :file:`models/sale_order.py` and
-:file:`views/sale_order_views.py`.
+:file:`views/sale_order_views.xml`.
 
 For *data*, split them by purpose : demo or data. The filename will be
 the main_model name, suffixed by *_demo.xml* or *_data.xml*.
